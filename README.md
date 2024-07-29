@@ -1,1 +1,5 @@
-Learning Solana
+### Solana Basics 
+
+```typescript
+     npm install 
+```
