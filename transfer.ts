@@ -1,7 +1,7 @@
 import { airdropIfRequired } from "@solana-developers/helpers";
 import { Connection, Keypair, LAMPORTS_PER_SOL, PublicKey, SystemInstruction, SystemProgram, Transaction, clusterApiUrl, sendAndConfirmTransaction } from "@solana/web3.js";
 
-const keypair = Keypair.generate()
+const keypair = Keypair.generate();
 
 const connection = new Connection("https://api.devnet.solana.com", "confirmed");
 const address = new PublicKey(keypair.publicKey.toBase58());
